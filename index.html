@@ -1,10 +1,9 @@
 #!ipxe
-####       boot.rdpstudio.top/2.0.49 initial loader        ####
-#### see https://netboot.xyz for more information ####
+####       boot.rdpstudio.top/2.0.50 initial loader        ####
 set conn_type https
-chain --autofree https://boot.rdpstudio.top/2.0.49/menu.ipxe || echo HTTPS failed... attempting HTTP...
+chain --autofree https://boot.rdpstudio.top/2.0.50/menu.ipxe || echo HTTPS failed... attempting HTTP...
 set conn_type http
-chain --autofree http://boot.rdpstudio.top/2.0.49/menu.ipxe || echo HTTP failed, localbooting...
+chain --autofree http://boot.rdpstudio.top/2.0.50/menu.ipxe || echo HTTP failed, localbooting...
 exit
 
 <!DOCTYPE html>
@@ -34,7 +33,7 @@ exit
 <span style="">&#160;\___/|&#160;.__/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><br />
 <span style="">&#160;&#160;&#160;&#160;&#160;&#160;|_|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><br />
     <p>
-  Version: 2.0.49<br>
+  Version: 2.0.50<br>
   Powered by RDPStudio
   </p>
 

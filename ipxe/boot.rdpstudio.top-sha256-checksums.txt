@@ -1,13 +1,13 @@
-# boot.rdpstudio.top bootloaders generated at Mon Sep 27 12:15:56 UTC 2021
+# boot.rdpstudio.top bootloaders generated at Mon Sep 27 12:43:06 UTC 2021
 # iPXE Commit: https://github.com/ipxe/ipxe/commit/2265a65191d76ce367913a61c97752ab88ab1a59
 
-33c7e907d375f2d1d80aa94e5414bff334b02ccc8cab92a7dccaab5da2d93308 *boot.rdpstudio.top-arm64-snp.efi
-a8364a31b6e0eada7933c8db91ca44b7d9f6d65e9a49aae9dd95c3a22a46d0dc *boot.rdpstudio.top-arm64-snponly.efi
-6f809657f7b6ce14cdae3a5c25a71c83955fa9ce7bef805c12fd4f657ba05f50 *boot.rdpstudio.top-arm64.efi
-e81ed847c90bc7207edb545446e9f704d2a78bb5c68700a4f392a8fa129878d8 *boot.rdpstudio.top-snp.efi
-cc31b9160a0ab22db010277548083835309dbd4e57ef0413341fbb230f9e020e *boot.rdpstudio.top-snponly.efi
-a7136db32a7a3912abf8ef435e25d93e59ea2cfbe188d96b6980cc79970fd9ef *boot.rdpstudio.top-undionly.kpxe
-23730e0b89acfa5917313eafa17169ab99139b83d49edab21d4b0d0bc9a17f7f *boot.rdpstudio.top.dsk
-97e022e4801cceed9a77359512976bc43a5b898c9c2ba72f4ce22ae7c242658e *boot.rdpstudio.top.efi
-39d3373c61f9c81618dc1e8b6a117d0c9a45a1734015301d7f878119dab8b8ca *boot.rdpstudio.top.kpxe
-8cec2ea2e0cbf980fbf9f6f39d4ef4585223f780731b285a9f9da5080a9ce768 *boot.rdpstudio.top.lkrn
+187f41a5db2c512e46baed18a86734536b9800cb5e7ae009b27b30ac14efc0b4 *boot.rdpstudio.top-arm64-snp.efi
+b844246ab4e5e7f22350a08aafc250162970907916a8ed9065dfcd5ce1e87cb2 *boot.rdpstudio.top-arm64-snponly.efi
+f1f4960e30480618e3a624b0fcf7a6367d34574f0b40bf81a3c231046c5a3911 *boot.rdpstudio.top-arm64.efi
+eadbad93ccc9cddab4ad1cac11baab7b634841fc4a4b143d76c6d1f25852bf2a *boot.rdpstudio.top-snp.efi
+eeea3fb7287a90aa15770c4d3f4e578393099e35910fd9d4b900f312df78df09 *boot.rdpstudio.top-snponly.efi
+357aabfabe4eb825094e329db3b66207f5951fa1ba62516861a09f52631422f9 *boot.rdpstudio.top-undionly.kpxe
+305c6ccf11eafd57c36cd0aa29d55df50b7e7f87198e17f52f3da83a53f9c25f *boot.rdpstudio.top.dsk
+46f7b23ea706d9932da9e8d65395e794d70251fe560c7d84fdfd78771db2b709 *boot.rdpstudio.top.efi
+f337078958bd9d86b3a2fed9f3bc23c7194b49d258b7a9c3fd581765c34f875e *boot.rdpstudio.top.kpxe
+19c26a6aeb12c37ad46b10ea814576e8f4faf07b9ed8764d795f2c70ed640d6a *boot.rdpstudio.top.lkrn
