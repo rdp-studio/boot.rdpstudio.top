@@ -1,9 +1,14 @@
 ---
+generate_checksums: true
+generate_disks: true
 generate_disks_arm: true
+generate_disks_efi: true
 generate_disks_hybrid: true
+generate_disks_legacy: true
 generate_disks_rpi: true
+generate_local_vars: true
+generate_menus: true
+generate_signatures: false
 generate_version_file: true
-generate_local_vars: false
-bootloader_multiple: true
 bootloader_disks:
   - "boot.rdpstudio.top"
