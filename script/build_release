@@ -7,7 +7,7 @@ HARD_RC="2.x-RC"
 DEV_URL="dev.boot.rdpstudio.top"
 STAGING_URL="staging.boot.rdpstudio.top"
 PROD_URL="boot.rdpstudio.top"
-DOCKER_FILE="Dockerfile-build.production"
+DOCKER_FILE="Dockerfile-build"
 
 # Set boot domain
 if [[ "${TYPE}" == "dev" ]]; then
