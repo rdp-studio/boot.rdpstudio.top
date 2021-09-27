@@ -16,22 +16,11 @@ set fg_cya ${esc:string}[36m
 set fg_whi ${esc:string}[37m
 
 :netabout
-menu ${fg_cya}${bold}About netboot.xyz (Version: ${version})
+menu ${fg_cya}${bold}About boot.rdpstudio.top (Version: ${version})
 item exit ${bold}Exit back to main menu...${boldoff}
 item --gap --  --------------------------------------------------------------------------
-item about ${fg_gre}${bold}Self Hosting and Live Booting - November 29, 2019
-item about ${fg_gre}${bold}Full Article: ${fg_whi}${bold}https://netboot.xyz/blog/
-item about
-item about ${fg_yel}${bold}* Self hosting options using Ansible and Docker (soon)
-item about ${fg_yel}${bold}* Live Boot options now available with more on the way
-item about ${fg_yel}${bold}${space}Allows you to PXE boot into a Live Desktop from Github
-item about ${fg_yel}${bold}* netboot.xyz repo moving to netbootxyz org on github
-item --gap --  --------------------------------------------------------------------------
-item about ${fg_cya}${bold}Follow us on Twitter: ${fg_whi}${bold}@netbootxyz
-item --gap --  --------------------------------------------------------------------------
-item about ${fg_gre}${bold}Join us on Discord: ${fg_whi}${bold}https://discord.gg/An6PA2a
-item --gap --  --------------------------------------------------------------------------
-item about ${fg_gre}${bold}Sponsorship: ${fg_whi}${bold}https://opencollective.com/netbootxyz
+item about ${fg_gre}${bold}This is a online service which gives you an option to install
+item about ${fg_gre}${bold}Any OS within one active internet access.
 item --gap --  --------------------------------------------------------------------------
 isset ${upstream_version} && goto display_version || goto skip_version
 :display_version
