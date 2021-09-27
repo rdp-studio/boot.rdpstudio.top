@@ -1,0 +1,48 @@
+name: release
+
+on:
+  workflow_dispatch:
+
+env:
+  GITHUB_SHA: ${{ github.sha }}
+
+jobs:
+  release:
+    name: Build Release
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set Release Tag
+      run: echo "release_tag=$(cat version.txt)" >> $GITHUB_ENV
+
+    - name: Build release
+      run: |
+        ./script/build_release release
+
+    - name: Tag Release
+      run: |
+        ./script/tag ${{ env.release_tag }}
+
+    - name: Extract release notes
+      id: extract-release-notes
+      uses: ffurrer2/extract-release-notes@v1
+
+    - name: Create Release and Upload Assets
+      uses: svenstaro/upload-release-action@v2
+      with:
+        file: githubout/*
+        file_glob: true
+        overwrite: true
+        prerelease: false
+        release_name: ${{ env.release_tag }}
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        tag: ${{ env.release_tag }}
+        body: ${{ steps.extract-release-notes.outputs.release_notes }}
+
+    - name: Deploy Pages
+      uses: JamesIves/github-pages-deploy-action@3.6.2
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: s3out
