@@ -16,7 +16,7 @@ set version {{ boot_version }}
 
 :start
 echo ${bold}${fg_gre}${site_name} - ${fg_whi}v${version}${boldoff}
-iseq ${site_name} netboot.xyz || echo ${bold}${fg_whi}Powered by ${fg_gre}netboot.xyz${fg_whi}${boldoff}
+iseq ${site_name} boot.rdpstudio.top || echo ${bold}${fg_whi}Powered by ${fg_gre}RDPStudio${fg_whi}${boldoff}
 prompt --key m --timeout 4000 Hit the ${bold}m${boldoff} key to open failsafe menu... && goto failsafe || goto dhcp
 
 :dhcp
