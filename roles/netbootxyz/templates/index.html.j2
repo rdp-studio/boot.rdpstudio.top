@@ -1,6 +1,5 @@
 #!ipxe
 ####       {{ boot_domain }} initial loader        ####
-#### see https://netboot.xyz for more information ####
 {% if bootloader_https_enabled | bool %}
 set conn_type https
 chain --autofree https://{{ boot_domain }}/menu.ipxe || echo HTTPS failed... attempting HTTP...
