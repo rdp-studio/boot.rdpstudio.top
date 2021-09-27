@@ -1,8 +1,8 @@
-boot_domain: boot.netboot.xyz
+boot_domain: boot.rdpstudio.top
 boot_timeout: 300000
 boot_version: 2.x
 bootloader_disks:
-- netboot.xyz
+- boot.rdpstudio.top
 bootloader_http_enabled: true
 bootloader_https_enabled: true
 bootloaders:
@@ -80,11 +80,11 @@ early_menu_contents: '### put early ipxe settings here'
 early_menu_enabled: false
 generate_checksums: true
 generate_disks: true
-generate_disks_arm: false
+generate_disks_arm: true
 generate_disks_efi: true
-generate_disks_hybrid: false
+generate_disks_hybrid: true
 generate_disks_legacy: true
-generate_disks_rpi: false
+generate_disks_rpi: true
 generate_local_vars: true
 generate_menus: true
 generate_signatures: false
