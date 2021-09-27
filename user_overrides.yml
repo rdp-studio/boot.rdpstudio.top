@@ -7,7 +7,7 @@ generate_checksums: true
 generate_local_vars: true
 
 # set desired site name
-site_name: RDPNetBoot
+site_name: boot.rdpstudio.top
 
 # set desired boot domain
 #boot_domain: boot.mysitename.com
