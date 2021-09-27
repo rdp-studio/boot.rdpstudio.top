@@ -4,9 +4,9 @@ set -e
 TYPE=$1
 HARD_RELEASE="2.x"
 HARD_RC="2.x-RC"
-DEV_URL="dev.boot.netboot.xyz"
-STAGING_URL="staging.boot.netboot.xyz"
-PROD_URL="boot.netboot.xyz"
+DEV_URL="dev.boot.rdpstudio.top"
+STAGING_URL="staging.boot.rdpstudio.top"
+PROD_URL="boot.rdpstudio.top"
 DOCKER_FILE="Dockerfile-build.production"
 
 # Set boot domain
