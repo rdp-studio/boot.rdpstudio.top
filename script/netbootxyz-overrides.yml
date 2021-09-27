@@ -11,12 +11,5 @@ generate_menus: true
 generate_signatures: false
 generate_version_file: true
 bootloader_multiple: true
-
-sigs_menu: true
-sigs_enabled: true
-generate_signatures: true
-sigs_dir: "{{ netbootxyz_root }}/sigs"
-sigs_location: "http://${boot_domain}/sigs/"
-
 bootloader_disks:
   - "boot.rdpstudio.top"
