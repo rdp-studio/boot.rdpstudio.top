@@ -1,0 +1,13 @@
+# RDPNetBoot bootloaders generated at Mon Sep 27 13:31:55 UTC 2021
+# iPXE Commit: https://github.com/ipxe/ipxe/commit/2265a65191d76ce367913a61c97752ab88ab1a59
+
+32c5c72719ca0180758083ec49e58b107083aa2f081571d050c646f299bc1b77 *boot.rdpstudio.top-arm64-snp.efi
+a9e354b9761dd8083975d1f9ba5d20fd0046617eea1e4e7b0c06c993b1b8e7af *boot.rdpstudio.top-arm64-snponly.efi
+27e36f0789b2dd199cfccd9dcff1520cd83acb1c66e714653f4d0904ec69f05f *boot.rdpstudio.top-arm64.efi
+f6046e065e6ea80bc24e67387156559a1d300179d860d3acd79ca3762b0f9031 *boot.rdpstudio.top-snp.efi
+2676ebc861d0d08d37c96920d7704b7a29e6d7c9d2682b41518cc1fc31617337 *boot.rdpstudio.top-snponly.efi
+2d9fc171f00b3512f71a68b14b6669abf4a853a6ef4edcea3fad45a023b6c042 *boot.rdpstudio.top-undionly.kpxe
+607e57284966bf6056ab62a2530dd78ffb4fed30ffbb905ec872d7b2252aed01 *boot.rdpstudio.top.dsk
+f2d5f96896cb330169b38b05d7256cc360df813c394c6b714a158a2cf885f304 *boot.rdpstudio.top.efi
+948d937cf42fc2d1e1206fe2df81d8efa6104230f1979c42f89f3c9ab1d5e1f2 *boot.rdpstudio.top.kpxe
+5e16b5c5364ecf9238504528918f21632d5c2b7aef53794e234978fb1e2dae15 *boot.rdpstudio.top.lkrn
